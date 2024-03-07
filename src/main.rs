@@ -29,4 +29,33 @@ fn main() {
     // The following will throw an error:
     // let mut spaces = "    ";
     // spaces = spaces.len();
+    //
+    //
+    let something: isize = 23;
+
+
+    // Integer literals:
+    let aDec: i32 = 32;
+    let aHex: i32 = 0xff;
+    let aOct: i32 = 0o32;
+    let aBin: i32 = 0b101;
+
+    println!("Some value: {}", aBin);
+    
+    let aByte: u8 = 5;
+    
+    println!("A byte: {}", aByte);
+
+    let someX = 2.0;        // f64
+    let someY: f32 = 3.0;   // f32
+                            //
+    let t = true;
+    let f: bool = false;
+
+    // Character types...
+    let c = 'z';
+    let z: char = 'Z';
+    let heart_eyed_cat = '😻';
+
+    println!("Cat: {}", heart_eyed_cat);
 }
