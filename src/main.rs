@@ -19,4 +19,14 @@ fn main() {
     
     println!("The value = {}", x);
     println!("The value = {x}");
+
+    let theName = "Leon";
+    let s = theName;
+    let s = s.len();
+
+    println!("Value = {}", s);
+
+    // The following will throw an error:
+    // let mut spaces = "    ";
+    // spaces = spaces.len();
 }
