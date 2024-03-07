@@ -58,4 +58,11 @@ fn main() {
     let heart_eyed_cat = '😻';
 
     println!("Cat: {}", heart_eyed_cat);
+
+    let tup: (i32, f64, u8) = (500, 6.4, 1);
+    
+    println!("First = {}", tup.0);
+
+    // Destructuring:
+    let (v1, v2, v3): (i32, f64, u8) = tup;
 }
